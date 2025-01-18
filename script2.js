@@ -7,8 +7,6 @@ setInterval(() => {
     mainClass.style.color = 'rgba(206, 206, 206, ' + alpha + ')'
 }, 1);
  
-clearInterval(interval); 
-
 function goToPage(page) {
     switch (page) {
         case 0:
